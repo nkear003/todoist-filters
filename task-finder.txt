@@ -4,7 +4,7 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 @outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
-@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@computer/internet & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @video & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @post & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden)
@@ -13,7 +13,7 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 
 @Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
-@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer/internet & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
@@ -23,7 +23,7 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 /Oversight,
 @Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
-@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer/internet & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
@@ -32,7 +32,7 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 
 @Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
-@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer/internet & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
@@ -42,7 +42,7 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 
 @Phone/anywhere & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @home & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
-@computer & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer/internet & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @outside & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @studio & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
 @office & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
