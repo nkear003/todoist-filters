@@ -4,10 +4,13 @@ view all & !(@Deadline | @noshow | @studio | @Computer/internet | @home | @offic
 @outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
-@computer/internet & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
-@studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
-@video & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
-@post & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden)
+@email & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@schedule & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@computer/internet & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@studio & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@video & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@render & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@post & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden)
 
 # Task finder by context no later dates
 
