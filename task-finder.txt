@@ -1,6 +1,6 @@
 # Task finder by context no later dates w no tags
 
-view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outside | @Phone/anywhere | @email | @call | @Schedule | #Inbox | #Purpose and Objectives | @subtask | ##AFKM 🥞| ##Hidden),
+view all & !(@Deadline | @noshow | @studio | @Computer/internet | @home | @office | @outside | @Phone/anywhere | @email | @call | @Schedule | #Inbox | #Purpose and Objectives | @subtask | ##AFKM 🥞| ##Hidden),
 @outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
