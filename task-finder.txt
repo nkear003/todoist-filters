@@ -1,47 +1,47 @@
 # Task finder by context no later dates w no tags
 
 view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outside | @Phone/anywhere | @email | @call | @Schedule | #Inbox | #Purpose and Objectives | @subtask | ##AFKM 🥞| ##Hidden),
-@outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight),
-@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight),
-@Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight),
-@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight),
-@studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight),
-@office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | /Oversight)
+@outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden)
 
 # Task finder by context no later dates
 
-@Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight)
+@Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@outside & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
 
 # Task finder by context w oversights
 
 /Oversight,
-@Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight)
+@Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
 
 # Task finder by context
 
-@Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight)
+@Phone/anywhere & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@home & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@outside & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@studio & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@office & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
 
 
 # Task finder by context no dates
 
-@Phone/anywhere & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@home & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@computer & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@outside & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@studio & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight),
-@office & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later | /Oversight)
+@Phone/anywhere & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@home & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@computer & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@outside & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@studio & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later),
+@office & no date & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden | ##Later)
