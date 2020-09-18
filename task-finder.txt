@@ -6,6 +6,8 @@ view all & !(@Deadline | @noshow | @studio | @Computer | @home | @office | @outs
 @Phone/anywhere & !due after: today & !(@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @computer & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @studio & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@video & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
+@post & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden),
 @office & !due after: today & (@subtask | @noshow | @waiting  | @hold | ##AFKM 🥞| ##Hidden)
 
 # Task finder by context no later dates
